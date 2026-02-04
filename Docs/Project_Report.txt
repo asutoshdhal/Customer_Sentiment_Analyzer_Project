@@ -1,0 +1,31 @@
+
+CUSTOMER SENTIMENT ANALYZER PROJECT REPORT
+-----------------------------------------
+
+1. Introduction
+This project analyzes customer reviews using NLP techniques without ML models.
+It uses TextBlob to extract polarity scores and classify reviews.
+
+2. Objective
+- Understand customer sentiment (Positive, Negative, Neutral)
+- Identify common complaints via keywords
+- Provide actionable insights to business
+
+3. Tools Used
+- Python 3
+- Pandas
+- TextBlob
+
+4. Implementation
+- Reviews are stored in a CSV file
+- TextBlob computes polarity for each review
+- Sentiment is classified based on polarity: >0 Positive, <0 Negative, =0 Neutral
+- Top frequent keywords are extracted to highlight common themes
+
+5. Results
+- Sentiment results are saved in `output/sentiment_results.csv`
+- Top keywords saved in `output/frequent_keywords.csv`
+- Insights help businesses improve product and customer experience
+
+6. Conclusion
+This project is beginner-friendly and demonstrates NLP applications without ML models.
